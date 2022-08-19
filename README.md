@@ -5,7 +5,7 @@
 This project was done specifically to improve the user experience on the Horiseo website, and the readability of the css 
 
 
-![alt text](assets\images\digital-marketing-meeting.jpg)
+![Website Body Image](C:\Users\John\bootcamp\challenges\Module1CodeRefractorJohnWilliams\assets\images\digital-marketing-meeting.jpg)
 
 ## Installation
 
