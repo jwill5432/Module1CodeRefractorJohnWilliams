@@ -4,9 +4,6 @@
 
 This project was done specifically to improve the user experience on the Horiseo website, and the readability of the css 
 
-
-![alt text](assets\images\digital-marketing-meeting.jpg)
-
 ## Installation
 
 This project was completed using Git Bash as a console, Microsoft Visual Code to change the gtml and css file for the website, and github to deploy the website.
