@@ -1,0 +1,235 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    /*The boxes on this webpage are border boxes with no padding  */
+}
+
+body {
+    background-color: #d9dcd6;
+    /* background color of the body of the webpage */
+}
+
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+    /* the font, color, and space around the header*/
+}
+
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+/* the font size and the display placement of Horiseon*/
+.header h1 .seo {
+    color: #d9dcd6;
+    /*The color of the seo in the header, is different from the rest of the letters in Horiseon */
+}
+
+.header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    /* Th header padding, margin, float, font, and font size are controlled here */
+}
+
+.header div ul {
+    list-style-type: none;
+    /*the list style type for the header is not specified */
+}
+
+.header div ul li {
+    display: inline-block;
+    margin-left: 25px;
+    /*  */
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+    /* This controls the appearance of the links at the top of the webpage, it makes them white */
+}
+
+p {
+    font-size: 16px;
+    /* This controls the size of text inside paragraphs*/
+}
+
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+    /* This code controls the image centered in the screen of the people working in a board meeting. The width is 100% of the screen, it has a small margin at the bottom, and it is centered in the page*/
+}
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+    /* Because the images for search engine optimization and social media marketing have float left, the image floats to the left of the box*/
+
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+    /* The online reputation image floats to the right of the box it sits in */
+}
+
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+    /* This keeps the 3 content boxes on the left side of the screen and only taking up 75% of the screen. It also keeps it 20 pixels off of the left side of the screen */
+}
+
+.search-engine-optimization {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+    /* This controls the box that contains the search engine optimization text image and header. Specifically the fonts, height, background color, margins, and text color */
+}
+
+.online-reputation-management {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+    /* This controls the box that contains the online reputation management text image and header. Specifically the fonts, height, background color, margins, and text color */
+}
+
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+    /* This controls the box that contains the social media marketing text image and header. Specifically the fonts, height, background color, margins, and text color */
+}
+
+.search-engine-optimization img {
+    max-height: 200px;
+    /* The search engine optimization image height settings */
+}
+
+.online-reputation-management img {
+    max-height: 200px;
+    /* The online reputation management image height settings */
+}
+
+.social-media-marketing img {
+    max-height: 200px;
+    /* The social media marketing image height settings */
+}
+
+.search-engine-optimization h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+    /* Margin and font size for the search engine optimization box */
+}
+
+.online-reputation-management h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+    /* Margin and font size for the online reputation management box */
+}
+
+.social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+    /* Margin and font size for the social media marketing box */
+}
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+    /* This controls the appearance of the the box on the right side of the webpage that contains the benefit headers, paragraphs, and images */
+}
+
+.benefit-lead {
+    margin-bottom: 32px;
+    color: #ffffff;
+    /* This controls the benefit lead section, and its bottom margin that is 32 pixels long*/
+}
+
+.benefit-brand {
+    margin-bottom: 32px;
+    color: #ffffff;
+    /* This controls the benefit brand section in the right side box and the margin taht surrounds it */
+
+}
+
+.benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+    /* This controls the benefit costs box and the margin below it */
+}
+
+.benefit-lead h3 {
+    margin-bottom: 10px;
+    text-align: center;
+    /* The contains the information for the header on the lead generation section of the benefits */
+}
+
+.benefit-brand h3 {
+    margin-bottom: 10px;
+    text-align: center;
+    /* This is the header specifications for the brand benefits header */
+}
+
+.benefit-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
+    /* This is the header specifications for the cost management header */
+}
+
+.benefit-lead img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+    /* These are the display margin and width settings for the image below the lead generation header */
+}
+
+.benefit-brand img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+    /* These are the display margin and width settings for the image below the brand awareness header */
+}
+
+.benefit-cost img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+    /* These are the display margin and width settings for the image below the cost management header */
+}
+
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    /* Padding, fonts, and text alignment for the footer section */
+}
+
+.footer h2 {
+    font-size: 20px;
+    /* This is footer heading font size */
+}
